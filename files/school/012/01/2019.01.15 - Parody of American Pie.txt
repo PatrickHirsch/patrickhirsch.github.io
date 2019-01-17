@@ -21,16 +21,16 @@ v   |This'll be the day that I die                           |07|Must I be the v
 v   |Did you write the book of love                          |07|Am I a hero's overture?
 Ch 5|And do you have faith in God above                      |09|I asked someone who can see the future;
 v   |If the Bible tells you so?                              |07|The dragon sitting on gold
-v   |Do you believe in rock and roll?                        |08|He just handed me some sunblock
-v   |Can music save your mortal soul?                        |08|And that said I am the Dane's mold
+v   |Do you believe in rock and roll?                        |08|He just said I am the Dane's mold
+v   |Can music save your mortal soul?                        |08|Didn't understand what I was told
 v   |And can you teach me how to dance real slow?            |11|I asked him what he ment by Nihilism
 v   |Well, I know that you're in love with him               |9 |Well, I know you're a primitive being
 v   |'Cause I saw you dancin' in the gym                     |8 |But I'll try to explain what I mean
 v   |You both kicked off your shoes                          |6 |He shifted on his gold,
 v   |Man, I dig those rhythm and blues                       |7 |Man, destiny's been foretold
-v   |I was a lonely teenage broncin' buck                    |10|
-v   |With a pink carnation and a pickup truck                |11|
-Ch--|But I knew I was out of luck                            |8 |But still I did not understand
+v   |I was a lonely teenage broncin' buck                    |10|Life has no meaning or purpose in it
+v   |With a pink carnation and a pickup truck                |11|And the whole universe is an accident
+Ch--|But I knew I was out of luck                            |8 |But still I did not understand it
 Ch--|The day the music died                                  |6 |This is the day, I die,
 Ch--|I started singin'                                       |5 |I started singin'
 Ch--|Bye, bye Miss American Pie                              |8 |Hoor,-ay for the hardness of walls
