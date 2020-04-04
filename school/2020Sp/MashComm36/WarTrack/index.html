@@ -1,0 +1,109 @@
+<html>
+<head>
+	<title>Warrior Tracker</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<script src="script.js"></script>
+</head>
+<div style="border-radius:50%;background:white;width:250px;margin:auto;">
+	<img src="assets/logo.png" alt="Warrior Tracker Logo" width=100%>
+</div>
+<body>
+<p id="studentID">Bob Barker, 2<sup>nd</sup> Grade</p>
+<p id="exportReport" onclick="demoExport()"><a id="exportReport" href="">Export a report of previous entries</a></p>
+	<div style="background-color:white;margin:auto;margin-top:10px;width:50%;padding:16px">
+			<h2>When I grow up I want to be:</h2>
+				<input type="text" id="question_whenIGrowUpIWantToBe" />
+<hr/>
+		<h1>Academicly Prepared</h1>
+		<div class="portraitPart">
+			<p>In order to be academically prepared I need to be at school. &nbsp;I should not miss more than 65 hours, or 10 days of school. &nbsp;I have missed <input type="text" id="data_daysMissed" placeholder='2.365' readonly /> days of school this year.</p>
+			<h2>My MAP Scores:</h2>
+				<div>
+					<div class="MAProw">
+						<div class="MAPcell"></div>
+						<div class="MAPcell"></div>
+						<div class="MAPcell">Goal</div>
+						<div class="MAPcell">Score</div>
+						<div class="MAPcell"></div>
+					</div>
+					<div class="MAProw">
+						<div class="MAPcell">Fall:</div>
+						<div class="MAPcell">Math</div>
+						<div class="MAPcell"><input type="number" id="question_MAPFallMath"/></div>
+						<div class="MAPcell"><input type="text" id="data_MAPFallMath" placeholder='100%' readonly /></p></div>
+						<div class="MAPcell">TBD</div>
+					</div>
+					<div class="MAProw">
+						<div class="MAPcell"></div>
+						<div class="MAPcell">Reading</div>
+						<div class="MAPcell"><input type="number" id="question_MAPFallRead"/></div>
+						<div class="MAPcell"><input type="text" id="data_MAPFallRead" placeholder='100%' readonly /></p></div>
+						<div class="MAPcell">TBD</div>
+					</div>
+					<div class="MAProw">
+						<div class="MAPcell">Spring:</div>
+						<div class="MAPcell">Math</div>
+						<div class="MAPcell"><input type="number" id="question_MAPSpringMath"/></div>
+						<div class="MAPcell"><input type="text" id="data_MAPSpringMath" placeholder='TBD' readonly /></p></div>
+						<div class="MAPcell"></div>
+					</div>
+					<div class="MAProw">
+						<div class="MAPcell"></div>
+						<div class="MAPcell">Reading</div>
+						<div class="MAPcell"><input type="number" id="question_MAPSpringRead"/></div>
+						<div class="MAPcell"><input type="text" id="data_MAPSpringRead" placeholder='TBD' readonly /></p></div>
+						<div class="MAPcell"></div>
+					</div>
+				</div>
+		</div><hr/>
+		<h1>Fearless Learner</h1>
+		<div class="portraitPart">
+			<h2>I am afraid to raise my hand in class?</h2>
+				<input type="radio" id="question_afraidToRaiseHand_Y" name="question_afraidToRaiseHand" value="y">
+					<label for="y">Yes</label><br>
+				<input type="radio" id="question_afraidToRaiseHand_N" name="question_afraidToRaiseHand" value="n">
+					<label for="n">No</label><br>
+			<h2>When something is hard I will:</h2>
+				<input type="text" id="question_whenSomethingIsHard"/>
+		</div><hr/>
+		<h1>Resilient Individuals</h1>
+		<div class="portraitPart">
+			<h2>I like to try new things</h2>
+				<input type="radio" id="question_newThings_Y" name="question_newThings" value="y">
+					<label for="y">Yes</label><br>
+				<input type="radio" id="question_newThings_N" name="question_newThings" value="n">
+					<label for="n">No</label><br>
+			<h2>To stay active and exercise I like to:</h2>
+				<input type="text" id="question_stayActive"/>
+		</div><hr/>
+		<h1>Socially Responsible</h1>
+		<div class="portraitPart">
+			<p>To be socially responsible I should have 93% positive points on Class Dojo Currently I have <input type="text" id="data_classDogo" placeholder='94%' readonly /></p></p>
+			<h2>I know know what it means to be Respectful, Responsible and Safe?</h2>
+				<input type="radio" id="question_knowRRS_Y" name="question_knowRRS" value="y">
+					<label for="y">Yes</label><br>
+				<input type="radio" id="question_knowRRS_N" name="question_knowRRS" value="n">
+					<label for="n">No</label><br>
+			<h2>I have completed the 2<sup>nd</sup> Step Social Emotional Curriculum with my class this year?</h2>
+				<input type="radio" id="question_2ndStepSEC_Y" name="question_2ndStepSEC" value="y">
+					<label for="y">Yes</label><br>
+				<input type="radio" id="question_2ndStepSEC_N" name="question_2ndStepSEC" value="n">
+					<label for="n">No</label><br>
+		</div><hr/>
+		<h1>Effective Communications</h1>
+		<div class="portraitPart">
+			<h2>When I am mad or frustrated I use my words and have a safe body</h2>
+				<input type="radio" id="question_whenMad_Y" name="question_whenMad" value="y">
+					<label for="y">Yes</label><br>
+				<input type="radio" id="question_whenMad_N" name="question_whenMad" value="n">
+					<label for="n">No</label><br>
+			<h2>I like working with partners or in a group at school</h2>
+				<input type="radio" id="question_likePartners_Y" name="question_likePartners" value="y">
+					<label for="y">Yes</label><br>
+				<input type="radio" id="question_likePartners_N" name="question_likePartners" value="n">
+					<label for="n">No</label><br>
+		</div>
+		<button style="margin:auto;display:block;" onclick="demoSave()">SAVE</button>
+	</div>
+</body>
+</html>

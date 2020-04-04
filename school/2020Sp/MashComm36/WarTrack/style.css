@@ -1,0 +1,41 @@
+:root {
+  --crimson: #B12026;
+  --grey: #727474
+}
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:var(--crimson);
+}
+#studentID {
+	margin:0px;
+	font-size: 32px;
+	color:white;
+	text-align:center;
+	font-weight: bold;
+}
+#exportReport {
+	color:white;
+	font-family: "Times New Roman", Times, serif;
+	margin:auto;
+	text-align:center;
+	width:100%
+
+}
+.portraitPart {
+	margin:0 10px;
+}
+h1 {
+	margin-bottom:10px;
+}
+h2{
+	font-size:18px;
+	margin-bottom:0;
+}
+.MAProw {
+	display: table-row;
+}
+.MAPcell {
+	display: table-cell;
+	padding: 6px 6px;
+	vertical-align: bottom;
+}
