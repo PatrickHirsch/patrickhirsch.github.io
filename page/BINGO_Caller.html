@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<style>
+html{font-family:Arial,sans-serif;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+#body{border:3px solid #000;margin:0;background-color:#222;}
+th,.bingoSpotOff,.bingoSpotOn{width:40px;height:40px;text-align:center;border:2px solid #320;}
+th{width:20px;border:2px solid black;background-color:#000;color:#fff}
+
+#ball {border:40px solid #f00;background:#fff;width:100px;height:100px;border-radius:50%;font-size:50px;text-align:center;line-height:100px;margin:auto auto auto auto;}
+#rollButton {width:100px;font-size:28px;text-align:center;background-color:#FFAF02;border-radius:10px;margin:auto;}
+.bingoSpotOff{background-color:#A57101;}
+.bingoSpotOn{background-color:#FFAF02;}
+</style>
+
+
+<html onclick="callNew()">
+<body>
+<table id="body"><tr>
+    <td class="holder" id="ballHolder">
+    	<div id="ball"></div>
+    </td>
+    <td class="holder" id="gridHolder">
+    <table>
+    	<tr><th>B</th>
+    		<td class="bingoSpotOff" id="B1">1</td>
+    		<td class="bingoSpotOff" id="B2">2</td>
+    		<td class="bingoSpotOff" id="B3">3</td>
+    		<td class="bingoSpotOff" id="B4">4</td>
+    		<td class="bingoSpotOff" id="B5">5</td>
+    		<td class="bingoSpotOff" id="B6">6</td>
+    		<td class="bingoSpotOff" id="B7">7</td>
+    		<td class="bingoSpotOff" id="B8">8</td>
+    		<td class="bingoSpotOff" id="B9">9</td>
+    		<td class="bingoSpotOff" id="B10">10</td>
+    		<td class="bingoSpotOff" id="B11">11</td>
+    		<td class="bingoSpotOff" id="B12">12</td>
+    		<td class="bingoSpotOff" id="B13">13</td>
+    		<td class="bingoSpotOff" id="B14">14</td>
+    		<td class="bingoSpotOff" id="B15">15</td>
+    	</tr>
+    	<tr><th>I</th>
+    		<td class="bingoSpotOff" id="I16">16</td>
+    		<td class="bingoSpotOff" id="I17">17</td>
+    		<td class="bingoSpotOff" id="I18">18</td>
+    		<td class="bingoSpotOff" id="I19">19</td>
+    		<td class="bingoSpotOff" id="I20">20</td>
+    		<td class="bingoSpotOff" id="I21">21</td>
+    		<td class="bingoSpotOff" id="I22">22</td>
+    		<td class="bingoSpotOff" id="I23">23</td>
+    		<td class="bingoSpotOff" id="I24">24</td>
+    		<td class="bingoSpotOff" id="I25">25</td>
+    		<td class="bingoSpotOff" id="I26">26</td>
+    		<td class="bingoSpotOff" id="I27">27</td>
+    		<td class="bingoSpotOff" id="I28">28</td>
+    		<td class="bingoSpotOff" id="I29">29</td>
+    		<td class="bingoSpotOff" id="I30">30</td>
+    	</tr>
+    	<tr><th>N</th>
+    		<td class="bingoSpotOff" id="N31">31</td>
+    		<td class="bingoSpotOff" id="N32">32</td>
+    		<td class="bingoSpotOff" id="N33">33</td>
+    		<td class="bingoSpotOff" id="N34">34</td>
+    		<td class="bingoSpotOff" id="N35">35</td>
+    		<td class="bingoSpotOff" id="N36">36</td>
+    		<td class="bingoSpotOff" id="N37">37</td>
+    		<td class="bingoSpotOff" id="N38">38</td>
+    		<td class="bingoSpotOff" id="N39">39</td>
+    		<td class="bingoSpotOff" id="N40">40</td>
+    		<td class="bingoSpotOff" id="N41">41</td>
+    		<td class="bingoSpotOff" id="N42">42</td>
+    		<td class="bingoSpotOff" id="N43">43</td>
+    		<td class="bingoSpotOff" id="N44">44</td>
+    		<td class="bingoSpotOff" id="N45">45</td>
+    	</tr>                                 
+    	<tr><th>G</th>                        
+    		<td class="bingoSpotOff" id="G46">46</td>
+    		<td class="bingoSpotOff" id="G47">47</td>
+    		<td class="bingoSpotOff" id="G48">48</td>
+    		<td class="bingoSpotOff" id="G49">49</td>
+    		<td class="bingoSpotOff" id="G50">50</td>
+    		<td class="bingoSpotOff" id="G51">51</td>
+    		<td class="bingoSpotOff" id="G52">52</td>
+    		<td class="bingoSpotOff" id="G53">53</td>
+    		<td class="bingoSpotOff" id="G54">54</td>
+    		<td class="bingoSpotOff" id="G55">55</td>
+    		<td class="bingoSpotOff" id="G56">56</td>
+    		<td class="bingoSpotOff" id="G57">57</td>
+    		<td class="bingoSpotOff" id="G58">58</td>
+    		<td class="bingoSpotOff" id="G59">59</td>
+    		<td class="bingoSpotOff" id="G60">60</td>
+</tr>                                 
+    	<tr><th>O</th>                        
+    		<td class="bingoSpotOff" id="O61">61</td>
+    		<td class="bingoSpotOff" id="O62">62</td>
+    		<td class="bingoSpotOff" id="O63">63</td>
+    		<td class="bingoSpotOff" id="O64">64</td>
+    		<td class="bingoSpotOff" id="O65">65</td>
+    		<td class="bingoSpotOff" id="O66">66</td>
+    		<td class="bingoSpotOff" id="O67">67</td>
+    		<td class="bingoSpotOff" id="O68">68</td>
+    		<td class="bingoSpotOff" id="O69">69</td>
+    		<td class="bingoSpotOff" id="O70">70</td>
+    		<td class="bingoSpotOff" id="O71">71</td>
+    		<td class="bingoSpotOff" id="O72">72</td>
+    		<td class="bingoSpotOff" id="O73">73</td>
+    		<td class="bingoSpotOff" id="O74">74</td>
+    		<td class="bingoSpotOff" id="O75">75</td>
+    	</tr>
+    </table>
+    </td>
+</tr></table>
+</body>
+</html>
+
+<script>
+var ray=["B1","B2","B3","B4","B5","B6","B7","B8","B9","B10","B11","B12","B13","B14","B15","I16","I17","I18","I19","I20","I21","I22","I23","I24","I25","I26","I27","I28","I29","I30","N31","N32","N33","N34","N35","N36","N37","N38","N39","N40","N41","N42","N43","N44","N45","G46","G47","G48","G49","G50","G51","G52","G53","G54","G55","G56","G57","G58","G59","G60","O61","O62","O63","O64","O65","O66","O67","O68","O69","O70","O71","O72","O73","O74","O75"]
+function callNew()
+{	var i = Math.floor(Math.random()*ray.length);
+	var v = ray[i];
+	ray.splice(i, 1);
+	document.getElementById("ball").innerHTML=v;
+	document.getElementById(v).className="bingoSpotOn";
+}
+</script>

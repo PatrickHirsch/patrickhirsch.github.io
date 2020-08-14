@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<style>
+html{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+table{background:#f00;margin:auto;border:10px solid #f00;}
+th{color:#fff;}
+td{width:75px;height:75px;background:#fff;}
+th,td{font-size:40pt;text-align:center;}
+#N105{font-size:18pt;}
+.marked0{background: #FF777E;background: -moz-radial-gradient(center, #FF777E 49%, #FFFFFF 51%);background: -webkit-radial-gradient(center, #FF777E 49%, #FFFFFF 51%);background: radial-gradient(ellipse at center, #FF777E 49%, #FFFFFF 51%);}
+.marked1{background: #5ff166;background: -moz-radial-gradient(center, #5ff166 49%, #FFFFFF 51%);background: -webkit-radial-gradient(center, #5ff166 49%, #FFFFFF 51%);background: radial-gradient(ellipse at center, #5ff166 49%, #FFFFFF 51%);}
+.marked2{background: #66c7fa;background: -moz-radial-gradient(center, #66c7fa 49%, #FFFFFF 51%);background: -webkit-radial-gradient(center, #66c7fa 49%, #FFFFFF 51%);background: radial-gradient(ellipse at center, #66c7fa 49%, #FFFFFF 51%);}
+</style>
+
+<html>
+<body onload="fillCard()">
+<table>
+	<tr>
+		<th id="B">B</th>
+		<th id="I">I</th>
+		<th id="N">N</th>
+		<th id="G">G</th>
+		<th id="O">O</th>
+	</tr>
+	<tr>
+		<td id="B101" onclick="mark(this.id)"></td>
+		<td id="I101" onclick="mark(this.id)"></td>
+		<td id="N101" onclick="mark(this.id)"></td>
+		<td id="G101" onclick="mark(this.id)"></td>
+		<td id="O101" onclick="mark(this.id)"></td>
+	</tr>
+	<tr>
+		<td id="B102" onclick="mark(this.id)"></td>
+		<td id="I102" onclick="mark(this.id)"></td>
+		<td id="N102" onclick="mark(this.id)"></td>
+		<td id="G102" onclick="mark(this.id)"></td>
+		<td id="O102" onclick="mark(this.id)"></td>
+	</tr>
+	<tr>
+		<td id="B103" onclick="mark(this.id)"></td>
+		<td id="I103" onclick="mark(this.id)"></td>
+		<td id="N105" onclick="mark(this.id)" class="markedR"></td>
+		<td id="G103" onclick="mark(this.id)"></td>
+		<td id="O103" onclick="mark(this.id)"></td>
+	</tr>
+	<tr>
+		<td id="B104" onclick="mark(this.id)"></td>
+		<td id="I104" onclick="mark(this.id)"></td>
+		<td id="N103" onclick="mark(this.id)"></td>
+		<td id="G104" onclick="mark(this.id)"></td>
+		<td id="O104" onclick="mark(this.id)"></td>
+	</tr>
+	<tr>
+		<td id="B105" onclick="mark(this.id)"></td>
+		<td id="I105" onclick="mark(this.id)"></td>
+		<td id="N104" onclick="mark(this.id)"></td>
+		<td id="G105" onclick="mark(this.id)"></td>
+		<td id="O105" onclick="mark(this.id)"></td>
+	</tr>
+</table>
+</body>
+</html>
+
+<script>
+var rayB=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+var rayI=[16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+var rayN=[31,32,33,34,35,36,37,38,39,40,41,42,43,44,45]
+var rayG=[46,47,48,49,50,51,52,53,54,55,56,57,58,59,60]
+var rayO=[61,62,63,64,65,66,67,68,69,70,71,72,73,74,75]
+function fillSlot(ray,space)
+{	var i = Math.floor(Math.random()*ray.length);
+	var v = ray[i];
+	ray.splice(i, 1);
+	document.getElementById(space).innerHTML=v;
+}
+function fillCard()
+{	for(var j=101;j<106;j++)
+	{	fillSlot(rayB,"B"+j);
+		fillSlot(rayI,"I"+j);
+		fillSlot(rayN,"N"+j);
+		fillSlot(rayG,"G"+j);
+		fillSlot(rayO,"O"+j);
+		document.getElementById("N105").innerHTML="FREE<br>SPACE";}
+}
+function mark(id)
+{	var curClass = document.getElementById(id).className;
+	if(curClass.indexOf("marked")==0)
+	{	document.getElementById(id).className="";}
+	else
+	{	document.getElementById(id).className="marked"+Math.floor(Math.random()*3);}
+	//document.getElementById(id).className="markedG";
+}
+</script>
