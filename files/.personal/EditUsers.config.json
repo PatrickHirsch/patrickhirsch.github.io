@@ -1,1 +1,505 @@
-Lorum ipsum
+{
+	"all": {
+		"places": {
+			"contextMenu": true,
+			"chatTextarea": true,
+			"chatWindow": true,
+			"reactions": true,
+			"mentions": true,
+			"memberList": true,
+			"voiceChat": true,
+			"recentDms": true,
+			"dmsList": true,
+			"dmHeader": true,
+			"dmCalls": true,
+			"typing": true,
+			"friendList": true,
+			"inviteList": true,
+			"activity": true,
+			"userPopout": true,
+			"userProfile": true,
+			"mutualFriends": true,
+			"autocompletes": true,
+			"guildSettings": true,
+			"quickSwitcher": true,
+			"searchPopout": true,
+			"userAccount": true,
+			"appTitle": true
+		},
+		"types": {
+			"servers": true,
+			"dms": true
+		},
+		"users": {
+			"340672405225734164": {
+				"name": "Megan Taylor",
+				"tag": "TaylorM33",
+				"url": "https://lh3.googleusercontent.com/-jnA_1rn7Bhg/XsQh0ovxYUI/AAAAAAAAAAA/G-gyoQ9-qgoJJsSrK-QKbwjF29Kyv4vhACOQCEAE/s272-p-k-rw-no/photo.jpg",
+				"showServerNick": true
+			},
+			"174488371995869184": {
+				"color3": [134,30,233,1],
+				"name": "Ian Holbrook",
+				"tag": "HolbrookI1",
+				"url": "https://lh3.googleusercontent.com/-IS3H4sIu2NQ/Xtb7MQNiKMI/AAAAAAAAAAA/9SI4zfK3-0IFbOnTpBJezIbe3zsuiH_FgCOQCEAE/s272-p-k-rw-no/photo.jpg",
+				"showServerNick": true
+			},
+			"459621554842632203": {
+				"color3": [238,172,66,1],
+				"name": "Trace Maloney",
+				"showServerNick": true,
+				"tag": "MaloneyT2",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANTf6M8oe1CcyuLrKx7A8cHjSXFqMjRJMogqPwk_btQ9-c8-fuH-"
+			},
+			"513233728818905088": {
+				"name": "Ashlyn Duggan",
+				"tag": "DugganA1",
+				"url": "https://lh3.googleusercontent.com/-XNhGPSStMK4/XsQh_jnl1WI/AAAAAAAAAAA/uV7DnrOZQlcivm36t-RGSAO_1swFjeq2wCOQCEAE/s272-p-k-rw-no/photo.jpg",
+				"showServerNick": true
+			},
+			"482712964605149189": {
+				"name": "Collin Hudson",
+				"tag": "HudsonC7",
+				"url": "https://lh3.googleusercontent.com/-jrwZLzds3FI/XcZmvQwcnCI/AAAAAAAAAAA/aI0_xbYx79wbAQFjBWTnpQ29IFm90TezwCOQCEAE/s272-p-k-rw-no/photo.jpg",
+				"showServerNick": true
+			},
+			"693122028512870481": {
+				"name": "Emily Ferry",
+				"showServerNick": true,
+				"tag": "FerryE1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANSA6v6wfkMJEm7gqifX6ZN37fF4kuEAbsvassJ_lFusaHfUnLD7"
+			},
+			"452174554127794186": {
+				"name": "Sean \"Seab\" Scott",
+				"showServerNick": true,
+				"tag": "ScottS24",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANS0pDvEQqm4KxE8-OtS2v5Uj1pis3mvhfQ1qd_kjGy7I3pvFJmn"
+			},
+			"362043123167264788": {
+				"name": "Megan Mixon",
+				"tag": "MixonM1",
+				"url": "https://lh3.googleusercontent.com/-zV5rVZZ6tVc/Xq5ZF02BkyI/AAAAAAAAAAA/IEZRl0WCyscrmdBpSb_9Piz_VMnsWOC1gCOQCEAE/s272-p-k-rw-no/photo.jpg",
+				"showServerNick": true
+			},
+			"269205354540302358": {
+				"name": "Kerry Stephens",
+				"tag": "StephensK11",
+				"url": "https://lh3.googleusercontent.com/-peqZlVB1UgY/XZkXUwQlP6I/AAAAAAAAAAA/E3XorOVPsj85PgM5Bc7CiLsKE8w4OkTzgCOQCEAE/s272-p-k-rw-no/photo.jpg",
+				"showServerNick": true
+			},
+			"454636036509794327": {
+				"name": "Jordan Bardgett",
+				"tag": "BardgettB1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANS-ERRRjGf0iPoWlMmkCBhAFFg9XgrycVIi1vEDXZNVYOdGaRjC=s408-p-k-rw-no",
+				"showServerNick": true
+			},
+			"777767111241105408": {
+				"name": "Andrea Rinck",
+				"tag": "RinckA1",
+				"url": "https://lh3.googleusercontent.com/-XiW7YMuzwn0/Xq5XujCYo8I/AAAAAAAAAAA/WfEFOlL9kXABmt9cKsG4_4wRTK3pi5hgQCOQCEAE/s272-p-k-rw-no/photo.jpg",
+				"showServerNick": true
+			},
+			"270904126974590976": {
+				"name": "Dank Memer"
+			},
+			"173664414174674944": {
+				"color3": [134,30,233,1],
+				"name": "Jakob Banta",
+				"showServerNick": true,
+				"tag": "BantaJ3",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANTfTb4iw-u_iNvbgBbNaO3zTd7ong6qUjsToj4Jycmadpr0r1mP"
+			},
+			"863606089631531018": {
+				"name": "Dyan Bowling",
+				"tag": "BolingD3",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANSrPbHTZ-L063KXvWYc4zhEuwIPj5mH5E8S4ZMbEaZvf10l8YYc",
+				"showServerNick": true
+			},
+			"176104639345852416": {
+				"name": "Austin Jameison",
+				"tag": "JameisonA1",
+				"showServerNick": true
+			},
+			"314200690018746370": {
+				"name": "Cecilia \"Ceci\" Schroer",
+				"showServerNick": true,
+				"tag": "SchroerC3",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANSxfLHv-sKvKEXs1rpxoG33D6xcv3bShGYaXoJH-slTRbW7Um84"
+			},
+			"190640830195695629": {
+				"name": "Kariana Wyatt",
+				"tag": "WyattK3",
+				"showServerNick": true
+			},
+			"488872093254025228": {
+				"name": "Monte Grein",
+				"showServerNick": true,
+				"tag": "GreinM2",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANRF6BKhomIdLvDtDyubR2v8BlxvfT-3cPHkIuwnn7qAMARwRLwu"
+			},
+			"773904392676048907": {
+				"name": "Kiki White",
+				"tag": "WhiteK27",
+				"showServerNick": true
+			},
+			"368874879040094209": {
+				"name": "Andrew Walsh",
+				"showServerNick": true,
+				"tag": "WalshA8",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANR8rIIYWYpoEUlbEG3D9O8VTc--L1eghNUoocRslofOw723LmO8"
+			},
+			"869798734588968980": {
+				"name": "Noah Haynes",
+				"tag": "HaynesN1",
+				"showServerNick": true
+			},
+			"391811972586536971": {
+				"name": "Ethan McIntosh",
+				"showServerNick": true,
+				"tag": "McIntoshE3",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANRbObm6IeQQ5GDZDmGhQIzdhRdBU2r2cFPfOmXtFTulmvYqSQY4"
+			},
+			"203628144278765568": {
+				"name": "Noah Mello",
+				"showServerNick": true,
+				"tag": "MelloN1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANQxvQN76o2WorIZPYEvGZCLCEzcwonTB17wimc7D-S4dXLjvz40=s408-p-k-rw-no"
+			},
+			"882391467329482763": {
+				"name": "Jemma Adams",
+				"showServerNick": true,
+				"tag": "AdamsJ48",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANQd_-RX03qdRD5ayKR7AOPdSIhTpiugl5MIgCv7i1oauouzBBmR"
+			},
+			"225423026986942464": {
+				"color3": [238,172,66,1],
+				"name": "Cayce Daniels",
+				"showServerNick": true,
+				"tag": "DanielsJ18",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANRz8C3RvVnSLfA8uI_MwNZ7r2UgBG6AS8npwGIm51BqbpUH3O7j"
+			},
+			"366616013699153932": {
+				"name": "Caden McCormick",
+				"tag": "McCormickC4",
+				"showServerNick": true
+			},
+			"518943970643017728": {
+				"name": "Bawi \"Joel\" Lian",
+				"tag": "LianB1",
+				"showServerNick": true,
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANTO2Qqo7dDvjVvjwa1JFlqm5pQOqkRI-qvOQOJWseflXZaeLPM5"
+			},
+			"743876039435878432": {
+				"name": "Sydney Klemm",
+				"tag": "KlemmS1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANTl3K5rLuw_kO_5Y29qGTwt57cGzLOHmJM799SnVBTrLCnNwMRP",
+				"showServerNick": true
+			},
+			"501114415727247360": {
+				"name": "Alex Aossey",
+				"showServerNick": true,
+				"tag": "AosseyA1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANS1uWDEiEKUyUYPJMGZsPazlSpt_CDnZ9EYPZGDYw46qDyz2NWZ"
+			},
+			"147186334685986817": {
+				"color3": [134,30,233,1],
+				"name": "Elise Stromberg",
+				"tag": "StrombergE1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANTMbDerm1KHIRsOAJ8bgU7JW10LSciXqPvCmpZ2Qz8LTbLUUnfP",
+				"showServerNick": true
+			},
+			"262017130462052353": {
+				"name": "Meghyn Winslow",
+				"tag": "GoodridgeM",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANRlvsLdrk5yK1ZJt59OqILyyb3pXip9z06g1ftENqClfDm8Dyon",
+				"showServerNick": true
+			},
+			"325779839351128064": {
+				"name": "Ashley Collins",
+				"showServerNick": true,
+				"tag": "CollinsA22",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANQbu2zgBbvSB3Gx7Bre5Dt9QEWk9niEVl4GPHsclmchUHAn1K2o"
+			},
+			"217727771810463746": {
+				"name": "Norberto Perez",
+				"showServerNick": true,
+				"tag": "PerezN2",
+				"url": "https://nku.datacenter.adirondacksolutions.com/nku_studentphotos/PerezN2.jpg"
+			},
+			"880079356171522080": {
+				"name": "Milo Adams",
+				"tag": "AdamsL9"
+			},
+			"262464698178338817": {
+				"name": "Matthew Kennedy",
+				"tag": "KennedyM9",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANR7LF1l6y7HM4QX5EgOmwldG_EIG2200NrWZW7d7ojiR0xFArv-",
+				"showServerNick": true
+			},
+			"123627814166593538": {
+				"name": "Jack Osterman",
+				"showServerNick": true
+			},
+			"373670142917345290": {
+				"name": "Jonathan \"Jon\" Barnett",
+				"tag": "BarnettJ10",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANRptRR-96ET1l_GEnCZ0jjU975IkeRquiw8qA4JJUZdJp2eOuCl"
+			},
+			"604492475943485441": {
+				"name": "Rowan Duff",
+				"tag": "DuffL1",
+				"showServerNick": true
+			},
+			"205880269041827840": {
+				"name": "Dylan Gaines",
+				"tag": "GainesD2",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANQA5Ead5ryl9CsZBEqyHtyeJEN_cqeE3SO18N46dPalie8hsr7_",
+				"showServerNick": true
+			},
+			"360249299352813568": {
+				"name": "Matthew Held",
+				"tag": "HeldM2",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANSs7qFgxcGQ8oZhIw5ra-5BKcOgpMSEslG_KEFKVQkZOsGpKYVe",
+				"showServerNick": true
+			},
+			"266371997502537728": {
+				"name": "Peter Lefkovitz",
+				"removeIcon": false,
+				"showServerNick": true,
+				"tag": "LefkovitzP1",
+				"url": "https://nku.datacenter.adirondacksolutions.com/nku_studentphotos/LefkovitzP1.jpg"
+			},
+			"440604530032508934": {
+				"color3": [233,30,99,1],
+				"name": "Mary Helena Merklin",
+				"showServerNick": true,
+				"tag": "MerklinM1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANRVuZrFx0AnQRNWDmZNgfxel02VDYolQuzWWy1wFYl1vMjFfEHW"
+			},
+			"451213290333405185": {
+				"color3": [134,30,233,1],
+				"name": " Arin Waichulis",
+				"tag": "WaichulisA1",
+				"showServerNick": true
+			},
+			"842413411097641002": {
+				"color3": [233,30,99,1],
+				"showServerNick": true,
+				"tag": "HirschP2"
+			},
+			"611001392139599874": {
+				"name": "Ethan Galloway",
+				"tag": "GallowayE2",
+				"showServerNick": true
+			},
+			"459916248084643860": {
+				"name": "Josey Phipps",
+				"showServerNick": true,
+				"tag": "PhippsJ2"
+			},
+			"341340500479049728": {
+				"name": "Kelli Bazel",
+				"tag": "BazelK1",
+				"showServerNick": true
+			},
+			"527319086259240971": {
+				"name": "Freedom Waters",
+				"tag": "WatersF2",
+				"showServerNick": true
+			},
+			"456558910866718721": {
+				"name": "Nick Vennemann",
+				"showServerNick": true,
+				"tag": "VennemannN1",
+				"url": "https://nku.datacenter.adirondacksolutions.com/nku_studentphotos/VennemannN1.jpg"
+			},
+			"329845872680632320": {
+				"name": "Beth Vorhees",
+				"showServerNick": true,
+				"tag": "VorheesA1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANR6yDP4xk2yZBLnOQCDIKQVE6k9Q5kgiNg6uZBOKG3FFdhfnA0y"
+			},
+			"267157688369152010": {
+				"name": "Maria Schlaechter",
+				"tag": "SchlaechtM1",
+				"showServerNick": true
+			},
+			"620623737246449685": {
+				"name": "Clare Birkeland",
+				"showServerNick": true,
+				"tag": "BirkelandC1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANQf-cPUvHj-e0FWi14x2vFo-yqKxA6rKUl9xNJTusZK5J45h8G6"
+			},
+			"679142068131463179": {
+				"color3": [238,172,66,1],
+				"name": "Anthony Gentry",
+				"showServerNick": true,
+				"tag": "GentryA7",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANSI3Io6un-WVUED1LBvOoHMORY-AskKoGNJFnifeAgR7f7QLgjI"
+			},
+			"438937485561692170": {
+				"name": "Ben Noel",
+				"showServerNick": true,
+				"tag": "NoelB1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANSC68sqgtSo8PZj6zxc-0Wb7UTBrMW9bW8HSgU8f4LfbYpU1bgi"
+			},
+			"248264425952378880": {
+				"name": "Kathryn Lark",
+				"showServerNick": true,
+				"tag": "LarkK1"
+			},
+			"497604750808973313": {
+				"name": "Michael White",
+				"showServerNick": true,
+				"tag": "WhiteM25",
+				"url": ""
+			},
+			"250028287571525633": {
+				"url": "https://cdn.discordapp.com/attachments/575728153494945803/890770955268395088/image0.jpg"
+			},
+			"271717574943834135": {
+				"name": "Connor Shackelford",
+				"tag": "ShackelfoC2"
+			},
+			"563908945102766098": {
+				"name": "Chris Strobel",
+				"showServerNick": true,
+				"tag": "StrobelC",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANSUdyWnlG4dkuRD7ozpkddfdRnh-gfAyQV3gewtRvoiLr5NxENC"
+			},
+			"789138522761068595": {
+				"name": "Tracy Songer",
+				"showServerNick": true,
+				"tag": "SongerT1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANTa17QnCYy-CEbVMkxiVK2ratmEZzliiRYFCh6jYCodFgCeKzrV"
+			},
+			"889951720698945628": {
+				"name": "Abby Murphy",
+				"showServerNick": true,
+				"tag": "MurphyA15"
+			},
+			"260836745250078733": {
+				"name": "Jaxon Emerson",
+				"showServerNick": true,
+				"tag": "EmersonJ1",
+				"url": "https://nku.datacenter.adirondacksolutions.com/nku_studentphotos/EmersonJ1.jpg"
+			},
+			"289602764181340161": {
+				"color3": [134,30,233,1],
+				"name": "Quinn Brittain",
+				"showServerNick": true,
+				"tag": "BrittainQ1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANSM6eVMB1DTAJylOEitCTGZhcULfJppys4eVg0msJYXxZ717ZNN"
+			},
+			"267043140790124544": {
+				"color3": [134,30,233,1],
+				"name": "Carson Rolph",
+				"showServerNick": true,
+				"tag": "RolphC2",
+				"url": ""
+			},
+			"438678248289730570": {
+				"color3": [134,30,233,1],
+				"name": " Angel Munoz",
+				"showServerNick": true,
+				"tag": " MunozA2",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANQ3sL3x9x9TpDL8DmIZeTIyb2R_1U7var8mXLAerkOmXBy-LBZK=s408-p-k-rw-no"
+			},
+			"612372131631857672": {
+				"name": "Emma Tallent",
+				"tag": "TallentE1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANR_InYehajaT8yc07ow1gWKEWXom77YtQpzVP9ZGHJHdgTgLYEc=s408-p-k-rw-no"
+			},
+			"314562495085936641": {
+				"name": "Ben Glavan",
+				"tag": "GlavanB1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANTq9U5U5xuLCiWpWUbIylrxW3djbYBgU4GGiZI4QWgp-X4rDREV=s408-p-k-rw-no"
+			},
+			"316386633794715651": {
+				"name": "Max Morgan",
+				"showServerNick": true,
+				"tag": "MorganM15",
+				"url": "https://nku.datacenter.adirondacksolutions.com/nku_studentphotos/MorganM15.jpg"
+			},
+			"461423037657382912": {
+				"name": "Garrett Scott",
+				"removeIcon": true,
+				"showServerNick": true,
+				"tag": "ScottG5",
+				"url": ""
+			},
+			"249315085510508544": {
+				"color3": [134,30,233,1],
+				"name": "Andrew Dahlenburg",
+				"showServerNick": true,
+				"tag": "DahlenburA1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANTzJq6TQGCxvwnOiGt0zdhVVN8S3I1c-ON8i55RTn5USRQhsDPI"
+			},
+			"301118287012691980": {
+				"name": "Ben Molloy",
+				"showServerNick": true,
+				"tag": "MolloyB1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANQztLTuPbirzceTuoPUZG5dewR55LX14DSlGD8Jv5zlcBcaMV7G"
+			},
+			"971508003952021525": {
+				"color3": [233,30,99,1],
+				"name": "Briana Anderson",
+				"showServerNick": true,
+				"tag": "AndersonB17",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANSruQ-1AX4Uq6LdYkjbZ6p1px67Geuft7N0cg40qgd3b1VkMak5=s408-p-k-rw-no"
+			},
+			"971572080342618194": {
+				"color3": [233,30,99,1],
+				"name": "Morgan Miller",
+				"showServerNick": true,
+				"tag": "MillerM65",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANRTfqs4VIoCkwWqQDRbjef8_l924eIYmkujDJLid3rGsT3UCxLw"
+			},
+			"972178229483954236": {
+				"color3": [233,30,99,1],
+				"name": "Kylie Patrus",
+				"showServerNick": true,
+				"tag": "PatrusK1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANQ3G6aA_C3rlgX-qXiHobjIKoNTU6bIhcn-cRne8jd_asOtlEyK"
+			},
+			"726830450940575745": {
+				"name": "Darth Ferb",
+				"useServerNick": true
+			},
+			"724668160791543869": {
+				"name": "Stacey Armah",
+				"showServerNick": true,
+				"tag": "ArmahS1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANQv05SNMOHk-GJTIOl5q6WF_EaUgI32m89f3szI13HMFvYTukix"
+			},
+			"753737087391367268": {
+				"tag": "BucketB1"
+			},
+			"587758468140761096": {
+				"color1": null,
+				"color3": [233,30,99,1],
+				"name": "Mari Tolbert",
+				"showServerNick": true,
+				"tag": "TolbertJ4"
+			},
+			"976448887969710090": {
+				"color3": [233,30,99,1],
+				"tag": "ABP"
+			},
+			"336004638111170563": {
+				"color3": [233,30,99,1],
+				"name": "Jessica Pullen",
+				"showServerNick": true,
+				"tag": "PullenJ1",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANS9WpfYx_4z-eBrRu9Bt6P_HU67JqczJut-tWjcnKCTfnqMTfdL"
+			},
+			"839273150918426636": {
+				"color3": [233,30,99,1],
+				"name": "Taj Ross",
+				"showServerNick": true,
+				"tag": "RossT11",
+				"url": "https://lh3.googleusercontent.com/contacts/AKUYANS6sAbFUb44Rw0EKR1lXBjOQikUwjyP457VKKCkgbfpxrjWPcwf"
+			}
+		}
+	}
+}
