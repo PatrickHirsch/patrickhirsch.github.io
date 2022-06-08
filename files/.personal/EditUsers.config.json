@@ -463,7 +463,8 @@
 				"name": "Darth Ferb",
 				"useServerNick": true
 			},
-			"724668160791543869": {
+			"984126382634332190": {
+				"color3": [233,30,99,1],
 				"name": "Stacey Armah",
 				"showServerNick": true,
 				"tag": "ArmahS1",
@@ -473,7 +474,6 @@
 				"tag": "BucketB1"
 			},
 			"587758468140761096": {
-				"color1": null,
 				"color3": [233,30,99,1],
 				"name": "Mari Tolbert",
 				"showServerNick": true,
