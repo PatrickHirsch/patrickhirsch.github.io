@@ -4,7 +4,7 @@ html
 }
 body
 {	background-color:rgb(20,29,74);
-	background-image:linear-gradient(to bottom,rgba(181,78,121,.1),rgba(28,33,90,.6)),url("assets/starynightbg.gif");
+	background-image:linear-gradient(to bottom,rgba(181,78,121,.1),rgba(28,33,90,.6)),url("assets/starynightbg-s.gif");
 	background-repeat:no-repeat;
 	background-size:100%;
 	margin:0;
