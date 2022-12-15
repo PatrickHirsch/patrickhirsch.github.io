@@ -26,7 +26,7 @@ body
 	margin-top:3px;
 }
 
-#header img#portrait
+.portrait
 {	width:26%;
 	float:left;
 	margin:8pt;
